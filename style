@@ -1,13 +1,13 @@
 body {
   background-color: lightblue;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   padding: 20px;
-  background-color: #F9CAF88;
+  background-color: #F9CAF8;
   color: white;
 }
 
@@ -19,8 +19,30 @@ nav ul{
   display: flex;
 }
 
+nav ul li a {
+ text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
 nav ul li a:hover {
   background-color: #588157;
   color: #FFD166;
   border-radius: 5px;
+}
+
+section {
+  padding:20px;
+  margin: 20px;
+  border-style: 2px dotted;
+  box-shadow: 10px 10px 15px;
+  border-radius: 8px;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  background-color: red;
+  text-color: white;
+  padding: 10 px;
 }
