@@ -57,7 +57,7 @@ footer {
 }
 
 table {
-  width: 100;
+  width: 100%;
   border-collapse: collapse;
   margin-top: 1em;
 }
@@ -70,6 +70,10 @@ th, td {
 th {
   background-color: #fffdd0;
   font-weight: bold;
+}
+
+td {
+  background-color: #fffdd0;
 }
 
 tr:nth-child(3) td {
