@@ -46,6 +46,8 @@ section {
 section:hover{
   transform: scale(1.02);
   box-shadow: 10px 10px 25p rgba(0,0,0,0.3);
+}
+
 footer {
   font-size: 10px;
   text-align: center;
@@ -53,3 +55,25 @@ footer {
   text-color: white;
   padding: 10 px;
 }
+
+table {
+  width: 100;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color:
+  font-weight: bold;
+}
+
+tr:nth-child(3) {
+  border: solid thin;
+}
+  
+  
