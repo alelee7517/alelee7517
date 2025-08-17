@@ -76,5 +76,9 @@ th {
 tr:nth-child(3) td {
   border: 1px solid black;
 }
-  
+
+tfoot td {
+  text-align: center;
+  background-color: #fffdd0;
+}
   
