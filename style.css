@@ -62,18 +62,18 @@ table {
   margin-top: 1em;
 }
 th, td {
-  border: 1px solid #black;
+  border: 1px solid black;
   padding: 10px;
   text-align: left;
 }
 
 th {
-  background-color: cream;
+  background-color: #fffdd0;
   font-weight: bold;
 }
 
-tr:nth-child(3) {
-  border: solid thin;
+tr:nth-child(3) td {
+  border: 1px solid black;
 }
   
   
