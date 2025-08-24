@@ -81,4 +81,68 @@ tfoot td {
   text-align: center;
   background-color: #fffdd0;
 }
-  
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+form button {
+  transition: background-color 0.3s ease;
+  background: #FFD580;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  form {
+      max-width: 90%;
+      flex-direction: column;
+      gap: 10px;
+  }
+}
+
+@media (min-width:601px) and (max-width: 900px) {
+  form{
+      max-width: 700px;
+      flex-direction: column;
+      gap: 12px;
+  }
+}
+@media (min-width: 901px) { 
+  form{
+      max-width: 800px;
+      flex-direction: column;
+      gap: 15px;
+  }
+}
+
+form input:focus, form textarea:focus{
+  border-color: #FFD580;
+}
+
+form button:hover{
+  background-color: #FFB347;
+}
+
+
+
